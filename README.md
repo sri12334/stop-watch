@@ -20,7 +20,7 @@
 
 ## Screenshots
 
-![Example screenshot]()
+![Example screenshot](./assets/Screenshot.png)
 
 ## Technologies
 
@@ -35,9 +35,15 @@ clone the repo and start using the stop watch.
 
 ## Code Examples
 
-```js
+const dom = {
+    time: document.getElementById('time'),
+    start: document.getElementById('start'),
+    stop: document.getElementById('stop'),
+    reset: document.getElementById('reset'),
+};
 
-```
+export default dom;
+
 
 ## Features
 
